@@ -6,6 +6,7 @@ The *Payment* package is meant to be used as a low level implementation for paym
 Usage Examples
 ==============
 
+    <?php
     class JPaymentProcessor2Checkout extends JPaymentProcessorDirect {
     	public function process()
     	{
@@ -30,3 +31,4 @@ Usage Examples
     switch ($payment->status) {
     	....
     } 
+    ?>
